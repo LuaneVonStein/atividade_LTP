@@ -1,19 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="estilo.css">
-  <title>Document</title>
+<html>
+<i>
+  <i><title>Jogo da Velha</title></i>
+  <style>
+.square {
+    width: 210px;
+    height: 120px;
+    border: 2px solid rgb(225, 0, 225);
+    display: inline-block;
+    text-align: center;
+    line-height: 120px;
+    font-size: 44px;
+    cursor: pointer;
+   
+  }
+
+body {
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color:204, 204, 238;
+}
+
+h1 {
+    color: rgb(204, 204, 238);
+  }
+
+</style>
 </head>
 <body>
-  <h1>Produto em destaque</h1>
-  <div id="produto-destaque"></div> 
 
-  <h2>Lista de Produtos</h2>
-  <div id="lista-produtos"></div> 
-  
-  <script src="script.js"></script>
+  <div class="game-board">
+    <h1>JOGO DA VELHA </h1>
+
+    <p>Será que irá dar velha ?</p>
+    
+    <div class="game-board">
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+   <br/>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+   <br/>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+  </div>
+</div>
+
+  <script src="assets/javascript.js"></script>
+
+</body>
+</html> 
+</style>
+</head>
+
+
+
+<body >
+  <h1>VAMOS JOGAR ?</h1>
+  <h3>Regras</h3>
+  <p>1° Precisa-se de dois jogadores</p>
+  <P>2° Ganha aquele que preencher uma lacuna com o seu iconi  </P>
+  <div id="tela"></div>
 </body>
 </html>
